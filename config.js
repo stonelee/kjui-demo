@@ -10,4 +10,4 @@ seajs.config({
   }
 });
 
-seajs.use('./assets/js/app/main');
+seajs.use('./assets/js/app/main/main');

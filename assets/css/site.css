@@ -13,7 +13,8 @@ body {
   background-image: -ms-linear-gradient(top, #86aecc 0%, #d4e4ef 100%);
   background-image: linear-gradient(top, #86aecc 0%, #d4e4ef 100%);
 }
-#header span {
+#header a {
+  text-decoration: none;
   font-size: 24px;
   line-height: 50px;
 }

@@ -37,12 +37,21 @@ define(function(require, exports, module) {
         element: $panels.eq(i),
         data: data[i],
         showRoot: false,
-        onRendered: processTree
+        onRendered: afterRender,
+        onClick: click
       }).render();
     }
 
-    function processTree(tree) {
+    function afterRender(tree) {
       tree.$('.bd').css('border-width', 0);
+    }
+
+    function click(target, data) {
+      if (data.uri) {
+        $('#container').attr('src', 'view/' + data.uri + '.html').load(function() {
+          layout.adjustContainerMainHeight();
+        });
+      }
     }
 
     layout.adjustMenuItemHeight();

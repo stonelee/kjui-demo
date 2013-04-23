@@ -40,4 +40,5 @@ define(function(require, exports, module) {
 
   exports.adjustMenuItemHeight = adjustMenuItemHeight;
   exports.adjustContainerWidth = adjustContainerWidth;
+  exports.adjustContainerMainHeight= adjustContainerMainHeight;
 });
