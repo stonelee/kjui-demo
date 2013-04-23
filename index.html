@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8"/>
   <title>KJUI演示系统</title>
-  <link rel="stylesheet" href="../extui/src/all.css" />
+  <link rel="stylesheet" href="assets/css/all.css" />
   <link rel="stylesheet" href="assets/css/site.css" />
 </head>
 <body>
-  <div class="header">
+  <div id="header">
     <span>kjui演示系统</span>
   </div>
 
-  <div class="main">
+  <div id="main">
     <div id="sub">
       <div class="hd unselectable">
         <i class="icon icon-tool icon-tool-collapse-left"></i>
@@ -20,14 +20,14 @@
       <div id="menu" class="bd"></div>
     </div>
 
-    <div id="splitter" class="splitter">
-      <i class="splitter-mini-left"></i>
+    <div id="splitter">
+      <i id="splitter-mini-left"></i>
     </div>
 
-    <iframe id="main" src="view/welcome.html" frameborder="0" scrolling="no"></iframe>
+    <iframe id="container" src="view/welcome.html" frameborder="0" scrolling="no"></iframe>
   </div>
 
-  <div class="footer">
+  <div id="footer">
     <span>©2013 煤炭科学研究总院</span>
   </div>
 

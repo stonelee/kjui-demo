@@ -1,5 +1,31 @@
 body {
+  overflow: hidden;
   background-color: #dfe8f6;
+}
+
+#header {
+  height: 50px;
+  padding-left: 30px;
+  background-color: #d4e4ef 100%;
+  background-image: -webkit-linear-gradient(top, #86aecc 0%, #d4e4ef 100%);
+  background-image: -moz-linear-gradient(top, #86aecc 0%, #d4e4ef 100%);
+  background-image: -o-linear-gradient(top, #86aecc 0%, #d4e4ef 100%);
+  background-image: -ms-linear-gradient(top, #86aecc 0%, #d4e4ef 100%);
+  background-image: linear-gradient(top, #86aecc 0%, #d4e4ef 100%);
+}
+#header span {
+  font-size: 24px;
+  line-height: 50px;
+}
+#main {
+  overflow: auto;
+}
+#footer {
+  height: 30px;
+  padding-left: 20px;
+}
+#footer span {
+  line-height: 30px;
 }
 
 #sub {
@@ -7,15 +33,32 @@ body {
   position:relative;
   left:5px;
   width:200px;
-  height:600px;
 }
 #splitter {
   float:left;
+  position: relative;
+
   left:5px;
-  height:600px;
+  width: 5px;
+  cursor: col-resize;
 }
-#main {
-  width:900px;
-  height:600px;
+#splitter-mini-left {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  width: 5px;
+  height: 35px;
+  margin-top: -17px;
+  background: no-repeat top right;
+  background-image: url('../images/util/splitter/mini-left.gif');
+  cursor: pointer;
+}
+
+#container {
+  float:left;
   margin-left:5px;
+}
+
+#menu .mod{
+  margin-bottom: 0;
 }
