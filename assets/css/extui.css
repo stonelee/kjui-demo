@@ -819,6 +819,12 @@ ul.list li:hover {
 .icon-tool-collapse-left:hover {
   background-position: -15px -180px;
 }
+.icon-tool-expand-right {
+  background-position: 0 -165px;
+}
+.icon-tool-expand-right:hover {
+  background-position: -15px -165px;
+}
 .icon-tool-collapse-top {
   background-position: 0 -255px;
 }

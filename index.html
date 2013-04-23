@@ -14,14 +14,16 @@
   <div id="main">
     <div id="sub">
       <div class="hd unselectable">
-        <i class="icon icon-tool icon-tool-collapse-left"></i>
+        <i data-role="toggle" data-status="show" class="icon icon-tool icon-tool-collapse-left"></i>
         <span class="hd-title">菜单</span>
       </div>
-      <div id="menu" class="bd"></div>
+      <div id="menuContainer" class="bd">
+        <div id="menu"></div>
+      </div>
     </div>
 
     <div id="splitter">
-      <i id="splitter-mini-left"></i>
+      <i data-role="toggle" data-status="show" class="splitter-mini-left"></i>
     </div>
 
     <iframe id="container" src="view/welcome.html" frameborder="0" scrolling="no"></iframe>

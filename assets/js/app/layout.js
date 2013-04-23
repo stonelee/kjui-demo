@@ -2,18 +2,17 @@ define(function(require, exports, module) {
   var $ = require('$');
 
   function adjustMainHeight() {
-    var height = $(window).innerHeight() - $('#header').outerHeight() - $('#footer').outerHeight();
-    $('#sub, #splitter, #container').height(height);
+    var mainHeight = $(window).innerHeight() - $('#header').outerHeight() - $('#footer').outerHeight();
+    $('#sub, #splitter, #container').height(mainHeight);
+
+    var menuHeight = $('#sub').innerHeight() - $('#sub').children().eq(0).outerHeight();
+    $('#menuContainer').height(menuHeight - 1);
   }
 
-  var menuLength;
-
-  function adjustMenuHeight(len) {
-    menuLength = len || menuLength;
-    var $menu = $('#menu');
-    var hdHeight = $('.accordion-hd', $menu).outerHeight(),
-      titleHeight = $menu.prev().outerHeight();
-    var height = $menu.parent().innerHeight() - titleHeight - hdHeight * menuLength;
+  function adjustMenuItemHeight() {
+    var $menu = $('#menu'),
+      $hd = $('.accordion-hd', $menu);
+    var height = $('#menuContainer').innerHeight() - $hd.outerHeight() * $hd.length;
     $('.grid-bd', $menu).height(height - 4);
   }
 
@@ -31,7 +30,7 @@ define(function(require, exports, module) {
 
   $(window).resize(function() {
     adjustMainHeight();
-    adjustMenuHeight();
+    adjustMenuItemHeight();
     adjustContainerWidth();
     adjustContainerMainHeight();
   });
@@ -39,5 +38,6 @@ define(function(require, exports, module) {
   adjustContainerWidth();
   adjustContainerMainHeight();
 
-  exports.adjustMenuHeight = adjustMenuHeight;
+  exports.adjustMenuItemHeight = adjustMenuItemHeight;
+  exports.adjustContainerWidth = adjustContainerWidth;
 });

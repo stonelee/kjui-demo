@@ -42,7 +42,7 @@ body {
   width: 5px;
   cursor: col-resize;
 }
-#splitter-mini-left {
+.splitter-mini-left, .splitter-mini-right {
   display: inline-block;
   position: absolute;
   top: 50%;
@@ -50,8 +50,13 @@ body {
   height: 35px;
   margin-top: -17px;
   background: no-repeat top right;
-  background-image: url('../images/util/splitter/mini-left.gif');
   cursor: pointer;
+}
+.splitter-mini-left {
+  background-image: url('../images/util/splitter/mini-left.gif');
+}
+.splitter-mini-right {
+  background-image: url('../images/util/splitter/mini-right.gif');
 }
 
 #container {
