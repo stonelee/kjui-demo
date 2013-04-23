@@ -23,8 +23,11 @@ define(function(require, exports, module) {
 
   function adjustContainerMainHeight() {
     var $container = $('#container'),
-      $doc = $container.contents();
-    var height = $container.height() - $doc.find('#title').outerHeight();
+      $doc = $container.contents(),
+      $title = $doc.find('#title'),
+      $main = $doc.find('#main');
+    var mainPaddingHeight = parseFloat($main.css('padding-top')) + parseFloat($main.css('padding-bottom'));
+    var height = $container.height() - $title.outerHeight() - mainPaddingHeight;
     $doc.find('#main').height(height - 1);
   }
 
@@ -40,5 +43,5 @@ define(function(require, exports, module) {
 
   exports.adjustMenuItemHeight = adjustMenuItemHeight;
   exports.adjustContainerWidth = adjustContainerWidth;
-  exports.adjustContainerMainHeight= adjustContainerMainHeight;
+  exports.adjustContainerMainHeight = adjustContainerMainHeight;
 });

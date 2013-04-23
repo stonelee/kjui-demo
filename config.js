@@ -1,5 +1,5 @@
 seajs.config({
-  preload: ['seajs/plugin-text'],
+  plugins: ['text'],
   alias: {
     '$': 'gallery/jquery/1.8.2/jquery',
     handlebars: 'gallery/handlebars/1.0.0/handlebars',
@@ -9,5 +9,3 @@ seajs.config({
     tree: 'kjui/tree/1.0.0/tree'
   }
 });
-
-seajs.use('./assets/js/app/main/main');
