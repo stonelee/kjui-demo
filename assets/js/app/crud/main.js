@@ -57,6 +57,15 @@ define(function(require, exports, module) {
     },
     onSort: function(name, direction) {
       console.log(name, direction);
+    },
+    onRendered:function() {
+      this.$('.grid-hd').before($('#toolbar').html());
+
+      //TODO:memory leak
+      $('#new').click(function() {
+        console.log('new');
+      });
+
     }
   }).render();
 
