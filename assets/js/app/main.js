@@ -4,28 +4,9 @@ define(function(require, exports, module) {
     Tree = require('tree'),
     Switchable = require('switchable');
 
+  var layout = require('./layout');
 
   window.$ = $;
-
-  function adjustMainHeight() {
-    var mainHeight = $(window).innerHeight() - $('#header').outerHeight() - $('#footer').outerHeight();
-    $('#sub, #splitter, #container').height(mainHeight);
-  }
-
-  var menuLength;
-  function adjustMenuHeight() {
-    var $menu = $('#menu');
-    var hdHeight = $('.accordion-hd', $menu).outerHeight(),
-      titleHeight = $menu.prev().outerHeight();
-    var height = $menu.parent().innerHeight() - titleHeight - hdHeight * menuLength;
-    $('.grid-bd', $menu).height(height - 4);
-  }
-
-  $(window).resize(function() {
-    adjustMainHeight();
-    adjustMenuHeight();
-  });
-  adjustMainHeight();
 
   $.getJSON('assets/data/menu.json', function(data) {
     createAccordion(data.data.children);
@@ -58,8 +39,7 @@ define(function(require, exports, module) {
       tree.$('.bd').css('border-width', 0);
     }
 
-    menuLength = data.length;
-    adjustMenuHeight();
+    layout.adjustMenuHeight(data.length);
   }
 
 });
