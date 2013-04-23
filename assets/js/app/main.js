@@ -14,7 +14,12 @@ define(function(require, exports, module) {
     new Switchable({
       element: '#menu',
       triggerType: 'click',
-      activeTriggerClass: 'accordion-hd-is-active'
+      classPrefix: '',
+      activeTriggerClass: 'accordion-hd-is-active',
+      onSwitched: function(toIndex, fromIndex) {
+        this.triggers.eq(fromIndex).find('[data-role=flag]').addClass('icon-tool-expand-bottom').removeClass('icon-tool-collapse-top');
+        this.triggers.eq(toIndex).find('[data-role=flag]').addClass('icon-tool-collapse-top').removeClass('icon-tool-expand-bottom');
+      }
     }).render();
 
   });
