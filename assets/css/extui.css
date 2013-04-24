@@ -235,6 +235,7 @@ fieldset > legend {
   background-image: linear-gradient(top, #f9f9f9, #e3e4e6);
 }
 .grid-bd{
+  position: relative;
   overflow:auto;
   background: white;
 }
@@ -471,6 +472,22 @@ ul.menu li.menu-item-is-active {
   filter: alpha(opacity=50);
   *zoom: 1;
 }
+.mask-msg {
+  position: absolute;
+  z-index: 3;
+  padding: 2px;
+  border: 1px solid #99BCE8;
+  background-color: #DFE9F6;
+}
+.loading {
+  padding: 5px 10px 5px 25px;
+  background: #ffffff url('../images/grid/invalid_line.gif') repeat-x bottom;
+  background: #eee url('../images/grid/loading.gif') no-repeat 5px center;
+  cursor: wait;
+  border: 1px solid #A3BAD9;
+  color: #222;
+}
+
 .dialog {
   position: absolute;
   padding: 4px;

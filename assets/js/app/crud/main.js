@@ -43,13 +43,13 @@ define(function(require, exports, module) {
   }];
 
   new Grid({
-    element: '#demo1',
-    title: '表格',
+    parentNode: '#grid',
     url: '../assets/data/grid_1.json',
     urlParser: /(grid_)\d+(.*)/,
-    fields: fields,
-    width: 700,
-    height: 300,
+    model: {
+      fields: fields,
+      title: '表格'
+    },
     onClick: function(target, data) {
       if (target.attr('data-role') == 'detail') {
         console.log(data);
@@ -59,9 +59,8 @@ define(function(require, exports, module) {
       console.log(name, direction);
     },
     onRendered:function() {
-      this.$('.grid-hd').before($('#toolbar').html());
+      this.$('[data-role=hd]').before($('#toolbar').html());
 
-      //TODO:memory leak
       $('#new').click(function() {
         console.log('new');
       });
