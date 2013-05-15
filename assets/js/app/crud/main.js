@@ -1,5 +1,6 @@
 define(function(require, exports, module) {
   var $ = require('$'),
+    Dialog = require('dialog'),
     Grid = require('grid');
 
   var fields = [{
@@ -76,9 +77,17 @@ define(function(require, exports, module) {
         }
       });
 
-      $('#add').click(function() {
-        console.log('add');
+      new Dialog({
+        trigger: '#add',
+        template: require('./form.tpl'),
+        hasMask: false,
+        closeTpl: ' ',
+        content: $('#form').html()
       });
+
+      //$('#add').click(function() {
+        //console.log('add');
+      //});
       $('#edit').click(function() {
         console.log(self.selected.data('data'));
       });
