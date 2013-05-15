@@ -495,7 +495,7 @@ ul {
   width: 14px;
   height: 14px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/arrow.gif");
+  background-image: url("../images/arrow.gif");
   background-repeat: no-repeat;
   background-position: 0 0; }
 
@@ -504,7 +504,7 @@ ul {
   width: 12px;
   height: 9px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/menu-parent.gif");
+  background-image: url("../images/menu-parent.gif");
   background-repeat: no-repeat;
   background-position: 0 0; }
 
@@ -513,7 +513,7 @@ ul {
   width: 50px;
   height: 35px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/icon-question.gif");
+  background-image: url("../images/icon-question.gif");
   background-repeat: no-repeat;
   background-position: 0 0; }
 
@@ -522,7 +522,7 @@ ul {
   width: 50px;
   height: 35px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/icon-info.gif");
+  background-image: url("../images/icon-info.gif");
   background-repeat: no-repeat;
   background-position: 0 0; }
 
@@ -532,7 +532,7 @@ ul {
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/exclamation.gif");
+  background-image: url("../images/exclamation.gif");
   background-repeat: no-repeat;
   background-position: 0 0; }
 
@@ -731,7 +731,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 0;
@@ -745,7 +745,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -15px;
@@ -759,7 +759,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -30px;
@@ -773,7 +773,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -45px;
@@ -787,7 +787,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -60px;
@@ -801,7 +801,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -75px;
@@ -815,7 +815,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -90px;
@@ -829,7 +829,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -105px;
@@ -843,7 +843,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -120px;
@@ -857,7 +857,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -135px;
@@ -871,7 +871,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -150px;
@@ -885,7 +885,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -165px;
@@ -899,7 +899,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -180px;
@@ -913,7 +913,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -195px;
@@ -927,7 +927,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -210px;
@@ -941,7 +941,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -225px;
@@ -955,7 +955,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -240px;
@@ -969,7 +969,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -255px;
@@ -983,7 +983,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -270px;
@@ -997,7 +997,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -285px;
@@ -1011,7 +1011,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -300px;
@@ -1025,7 +1025,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -315px;
@@ -1039,7 +1039,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -330px;
@@ -1053,7 +1053,7 @@ ul {
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url("../images/tools/tool-sprites.gif");
+  background-image: url("../images/tool-sprites.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -345px;
@@ -1209,11 +1209,11 @@ input[type="text"],
 input[type="password"] {
   padding: 1px 3px;
   border: 1px solid #b5b8c8;
-  background: white url("../images/form/text-bg.gif") repeat-x 0 0; }
+  background: white url("../images/text-bg.gif") repeat-x 0 0; }
 
 input.form-invalid {
   border: 1px solid #cc3300;
-  background: white url("../scss/sprites/form/invalid_line.gif") repeat-x bottom; }
+  background: white url("../images/invalid_line.gif") repeat-x bottom; }
 
 textarea:focus,
 input[type="text"]:focus,
@@ -1276,7 +1276,7 @@ fieldset legend {
   width: 17px;
   height: 18px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/form/trigger.gif");
+  background-image: url("../images/trigger.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border-bottom: 1px solid #b5b8c8;
@@ -1290,7 +1290,7 @@ fieldset legend {
   width: 17px;
   height: 18px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/form/date-trigger.gif");
+  background-image: url("../images/date-trigger.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border-bottom: 1px solid #b5b8c8;
@@ -1304,7 +1304,7 @@ fieldset legend {
   width: 17px;
   height: 18px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/form/clear-trigger.gif");
+  background-image: url("../images/clear-trigger.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border-bottom: 1px solid #b5b8c8;
@@ -1318,7 +1318,7 @@ fieldset legend {
   width: 17px;
   height: 18px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/form/search-trigger.gif");
+  background-image: url("../images/search-trigger.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border-bottom: 1px solid #b5b8c8;
@@ -1332,7 +1332,7 @@ fieldset legend {
   width: 17px;
   height: 18px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/form/spinner-small.gif");
+  background-image: url("../images/spinner-small.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border-bottom: 1px solid #b5b8c8;
@@ -1365,6 +1365,14 @@ fieldset legend {
     background-image: -o-linear-gradient(top, #e4f3ff, #d9edff 48%, #c2d8f2 52%, #c6dcf6);
     background-image: -ms-linear-gradient(top, #e4f3ff, #d9edff 48%, #c2d8f2 52%, #c6dcf6);
     background-image: linear-gradient(top, #e4f3ff, #d9edff 48%, #c2d8f2 52%, #c6dcf6); }
+  .btn.disabled:hover, .btn.disabled:active {
+    background-color: #99bce8;
+    background-image: -webkit-linear-gradient(top, white, #f9f9f9 48%, #e2e2e2 52%, #e7e7e7);
+    background-image: -moz-linear-gradient(top, white, #f9f9f9 48%, #e2e2e2 52%, #e7e7e7);
+    background-image: -o-linear-gradient(top, white, #f9f9f9 48%, #e2e2e2 52%, #e7e7e7);
+    background-image: -ms-linear-gradient(top, white, #f9f9f9 48%, #e2e2e2 52%, #e7e7e7);
+    background-image: linear-gradient(top, white, #f9f9f9 48%, #e2e2e2 52%, #e7e7e7);
+    border: 1px solid #d1d1d1; }
 
 .btn-is-pressed, .btn:active, .btn-is-pressed:hover {
   border-color: #9ebae1;
@@ -1428,20 +1436,20 @@ fieldset legend {
 
 .grid-is-desc span {
   padding-right: 16px;
-  background: url("../images/grid/sort_desc.gif") no-repeat right 6px; }
+  background: url("../images/sort_desc.gif") no-repeat right 6px; }
 
 .grid-is-asc span {
   padding-right: 16px;
-  background: url("../images/grid/sort_asc.gif") no-repeat right 6px; }
+  background: url("../images/sort_asc.gif") no-repeat right 6px; }
 
 .grid-is-sortable, .grid-is-desc, .grid-is-asc {
   cursor: pointer; }
 
 .grid-cell-is-collapse {
-  background: url("../images/grid/group-collapse.gif") no-repeat 9px 2px; }
+  background: url("../images/group-collapse.gif") no-repeat 9px 2px; }
 
 .grid-cell-is-expand {
-  background: url("../images/grid/group-expand.gif") no-repeat 9px 2px; }
+  background: url("../images/group-expand.gif") no-repeat 9px 2px; }
 
 /*tree*/
 .grid-with-no-border .grid-cell {
@@ -1464,7 +1472,7 @@ fieldset legend {
   width: 16px;
   height: 20px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/tree.gif");
+  background-image: url("../images/tree.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 0; }
@@ -1474,7 +1482,7 @@ fieldset legend {
   width: 16px;
   height: 20px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/tree.gif");
+  background-image: url("../images/tree.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: -16px 0; }
@@ -1484,7 +1492,7 @@ fieldset legend {
   width: 16px;
   height: 20px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/tree.gif");
+  background-image: url("../images/tree.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: -32px 0; }
@@ -1494,7 +1502,7 @@ fieldset legend {
   width: 16px;
   height: 20px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/tree.gif");
+  background-image: url("../images/tree.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: -48px 0; }
@@ -1504,7 +1512,7 @@ fieldset legend {
   width: 16px;
   height: 20px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/tree.gif");
+  background-image: url("../images/tree.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -20px; }
@@ -1514,7 +1522,7 @@ fieldset legend {
   width: 16px;
   height: 20px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/tree.gif");
+  background-image: url("../images/tree.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: -16px -20px; }
@@ -1524,7 +1532,7 @@ fieldset legend {
   width: 16px;
   height: 20px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/tree.gif");
+  background-image: url("../images/tree.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: -32px -20px; }
@@ -1534,7 +1542,7 @@ fieldset legend {
   width: 16px;
   height: 20px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/tree.gif");
+  background-image: url("../images/tree.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: -48px -20px; }
@@ -1544,7 +1552,7 @@ fieldset legend {
   width: 16px;
   height: 20px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/tree.gif");
+  background-image: url("../images/tree.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 0 -40px; }
@@ -1554,7 +1562,7 @@ fieldset legend {
   width: 16px;
   height: 20px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/tree.gif");
+  background-image: url("../images/tree.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: -16px -40px; }
@@ -1564,7 +1572,7 @@ fieldset legend {
   width: 16px;
   height: 20px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/tree.gif");
+  background-image: url("../images/tree.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: -32px -40px; }
@@ -1574,7 +1582,7 @@ fieldset legend {
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/folder.gif");
+  background-image: url("../images/folder.gif");
   background-repeat: no-repeat;
   background-position: 0 0; }
 
@@ -1583,7 +1591,7 @@ fieldset legend {
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/folder-open.gif");
+  background-image: url("../images/folder-open.gif");
   background-repeat: no-repeat;
   background-position: 0 0; }
 
@@ -1592,7 +1600,7 @@ fieldset legend {
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/leaf.gif");
+  background-image: url("../images/leaf.gif");
   background-repeat: no-repeat;
   background-position: 0 0; }
 
@@ -1623,7 +1631,7 @@ fieldset legend {
 
 .loading {
   padding: 5px 10px 5px 25px;
-  background: #eeeeee url("../images/grid/loading.gif") no-repeat 5px center;
+  background: #eeeeee url("../images/loading.gif") no-repeat 5px center;
   cursor: wait;
   border: 1px solid #a3bad9;
   color: #222; }
@@ -1650,8 +1658,9 @@ fieldset legend {
   *display: inline;
   *zoom: 1;
   padding: 2px;
-  border: 1px solid transparent;
-  _border: 1px solid #d3e1f1;
+  border: 1px solid;
+  border-color: transparent;
+  _border-color: #d3e1f1;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   cursor: pointer;
@@ -1664,6 +1673,11 @@ fieldset legend {
     background-image: -o-linear-gradient(top, #dbeeff, #d0e7ff 48%, #bbd2f0 52%, #bed6f5);
     background-image: -ms-linear-gradient(top, #dbeeff, #d0e7ff 48%, #bbd2f0 52%, #bed6f5);
     background-image: linear-gradient(top, #dbeeff, #d0e7ff 48%, #bbd2f0 52%, #bed6f5); }
+  .toolbar-btn span {
+    vertical-align: middle; }
+  .toolbar-btn.disabled:hover, .toolbar-btn.disabled:active {
+    border-color: transparent;
+    background: transparent; }
 
 .toolbar-btn-is-pressed, .toolbar-btn:active, .toolbar-btn-is-pressed:hover {
   border-color: #7a9ac4;
@@ -1692,7 +1706,7 @@ fieldset legend {
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/grid.gif");
+  background-image: url("../images/grid.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border: 1px solid;
@@ -1706,7 +1720,10 @@ fieldset legend {
   .icon-grid-page-first-disabled:hover {
     border-color: #81a4d0;
     background-color: #dbeeff; }
-  .icon-grid-page-first-disabled:hover {
+  .icon-grid-page-first-disabled:active {
+    border-color: #7a9ac4;
+    background-color: #bccfe5; }
+  .icon-grid-page-first-disabled:hover, .icon-grid-page-first-disabled:active {
     border-color: transparent;
     background-color: transparent; }
 
@@ -1715,7 +1732,7 @@ fieldset legend {
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/grid.gif");
+  background-image: url("../images/grid.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border: 1px solid;
@@ -1728,13 +1745,16 @@ fieldset legend {
   .icon-grid-page-first:hover {
     border-color: #81a4d0;
     background-color: #dbeeff; }
+  .icon-grid-page-first:active {
+    border-color: #7a9ac4;
+    background-color: #bccfe5; }
 
 .icon-grid-page-last-disabled {
   display: inline-block;
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/grid.gif");
+  background-image: url("../images/grid.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border: 1px solid;
@@ -1748,7 +1768,10 @@ fieldset legend {
   .icon-grid-page-last-disabled:hover {
     border-color: #81a4d0;
     background-color: #dbeeff; }
-  .icon-grid-page-last-disabled:hover {
+  .icon-grid-page-last-disabled:active {
+    border-color: #7a9ac4;
+    background-color: #bccfe5; }
+  .icon-grid-page-last-disabled:hover, .icon-grid-page-last-disabled:active {
     border-color: transparent;
     background-color: transparent; }
 
@@ -1757,7 +1780,7 @@ fieldset legend {
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/grid.gif");
+  background-image: url("../images/grid.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border: 1px solid;
@@ -1770,13 +1793,16 @@ fieldset legend {
   .icon-grid-page-last:hover {
     border-color: #81a4d0;
     background-color: #dbeeff; }
+  .icon-grid-page-last:active {
+    border-color: #7a9ac4;
+    background-color: #bccfe5; }
 
 .icon-grid-page-next-disabled {
   display: inline-block;
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/grid.gif");
+  background-image: url("../images/grid.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border: 1px solid;
@@ -1790,7 +1816,10 @@ fieldset legend {
   .icon-grid-page-next-disabled:hover {
     border-color: #81a4d0;
     background-color: #dbeeff; }
-  .icon-grid-page-next-disabled:hover {
+  .icon-grid-page-next-disabled:active {
+    border-color: #7a9ac4;
+    background-color: #bccfe5; }
+  .icon-grid-page-next-disabled:hover, .icon-grid-page-next-disabled:active {
     border-color: transparent;
     background-color: transparent; }
 
@@ -1799,7 +1828,7 @@ fieldset legend {
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/grid.gif");
+  background-image: url("../images/grid.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border: 1px solid;
@@ -1812,13 +1841,16 @@ fieldset legend {
   .icon-grid-page-next:hover {
     border-color: #81a4d0;
     background-color: #dbeeff; }
+  .icon-grid-page-next:active {
+    border-color: #7a9ac4;
+    background-color: #bccfe5; }
 
 .icon-grid-page-prev-disabled {
   display: inline-block;
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/grid.gif");
+  background-image: url("../images/grid.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border: 1px solid;
@@ -1832,7 +1864,10 @@ fieldset legend {
   .icon-grid-page-prev-disabled:hover {
     border-color: #81a4d0;
     background-color: #dbeeff; }
-  .icon-grid-page-prev-disabled:hover {
+  .icon-grid-page-prev-disabled:active {
+    border-color: #7a9ac4;
+    background-color: #bccfe5; }
+  .icon-grid-page-prev-disabled:hover, .icon-grid-page-prev-disabled:active {
     border-color: transparent;
     background-color: transparent; }
 
@@ -1841,7 +1876,7 @@ fieldset legend {
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/grid.gif");
+  background-image: url("../images/grid.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border: 1px solid;
@@ -1854,13 +1889,16 @@ fieldset legend {
   .icon-grid-page-prev:hover {
     border-color: #81a4d0;
     background-color: #dbeeff; }
+  .icon-grid-page-prev:active {
+    border-color: #7a9ac4;
+    background-color: #bccfe5; }
 
 .icon-grid-refresh-disabled {
   display: inline-block;
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/grid.gif");
+  background-image: url("../images/grid.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border: 1px solid;
@@ -1874,7 +1912,10 @@ fieldset legend {
   .icon-grid-refresh-disabled:hover {
     border-color: #81a4d0;
     background-color: #dbeeff; }
-  .icon-grid-refresh-disabled:hover {
+  .icon-grid-refresh-disabled:active {
+    border-color: #7a9ac4;
+    background-color: #bccfe5; }
+  .icon-grid-refresh-disabled:hover, .icon-grid-refresh-disabled:active {
     border-color: transparent;
     background-color: transparent; }
 
@@ -1883,7 +1924,7 @@ fieldset legend {
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  background-image: url("../scss/sprites/grid.gif");
+  background-image: url("../images/grid.gif");
   background-repeat: no-repeat;
   background-position: 0 0;
   border: 1px solid;
@@ -1896,8 +1937,11 @@ fieldset legend {
   .icon-grid-refresh:hover {
     border-color: #81a4d0;
     background-color: #dbeeff; }
+  .icon-grid-refresh:active {
+    border-color: #7a9ac4;
+    background-color: #bccfe5; }
 
-.toolbar-icon-is-pressed, .icon-grid-page-first-disabled:active, .icon-grid-page-first:active, .icon-grid-page-last-disabled:active, .icon-grid-page-last:active, .icon-grid-page-next-disabled:active, .icon-grid-page-next:active, .icon-grid-page-prev-disabled:active, .icon-grid-page-prev:active, .icon-grid-refresh-disabled:active, .icon-grid-refresh:active, .toolbar-icon-is-pressed:hover {
+.toolbar-icon-is-pressed, .toolbar-icon-is-pressed:hover {
   border-color: #7a9ac4;
   background-color: #bccfe5; }
 

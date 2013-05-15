@@ -30,16 +30,16 @@ body {
 }
 
 #sub {
-  float:left;
-  position:relative;
-  left:5px;
-  width:200px;
+  float: left;
+  position: relative;
+  left: 5px;
+  width: 200px;
 }
 #splitter {
-  float:left;
+  float: left;
   position: relative;
 
-  left:5px;
+  left: 5px;
   width: 5px;
   cursor: col-resize;
 }
@@ -54,15 +54,15 @@ body {
   cursor: pointer;
 }
 .splitter-mini-left {
-  background-image: url('../images/util/splitter/mini-left.gif');
+  background-image: url('../images/mini-left.gif');
 }
 .splitter-mini-right {
-  background-image: url('../images/util/splitter/mini-right.gif');
+  background-image: url('../images/mini-right.gif');
 }
 
 #container {
-  float:left;
-  margin-left:5px;
+  float: left;
+  margin-left: 5px;
 }
 
 #menu .mod{

@@ -4,8 +4,9 @@ define(function(require, exports, module) {
 
   var fields = [{
     header: '编号',
+    name: 'id',
     align: 'center',
-    name: 'id'
+    sort: true
   }, {
     header: '验票站名称',
     name: 'stationName',
@@ -15,8 +16,8 @@ define(function(require, exports, module) {
     name: 'mineName'
   }, {
     header: '车牌号',
-    width: 80,
-    name: 'licensePlateNumber'
+    name: 'licensePlateNumber',
+    width: 80
   }, {
     header: '矿种',
     name: 'coalType'
@@ -30,6 +31,7 @@ define(function(require, exports, module) {
     header: '过站时间',
     name: 'transitDate',
     width: 80,
+    sort: 'desc',
     render: function(value) {
       return value.split('T')[0];
     }
@@ -48,24 +50,46 @@ define(function(require, exports, module) {
     urlParser: /(grid_)\d+(.*)/,
     model: {
       fields: fields,
-      title: '表格'
+      title: '表格',
+      height: 190
     },
     onClick: function(target, data) {
       if (target.attr('data-role') == 'detail') {
         console.log(data);
       }
+      if (this.selected) {
+        $('#edit, #del').removeClass('disabled');
+      } else {
+        $('#edit, #del').addClass('disabled');
+      }
     },
     onSort: function(name, direction) {
       console.log(name, direction);
     },
-    onRendered:function() {
-      this.$('[data-role=hd]').before($('#toolbar').html());
+    afterRender: function() {
+      var self = this;
+      this.$('.grid-hd').before($('#toolbar').html());
 
-      $('#new').click(function() {
-        console.log('new');
+      $('.toolbar-btn').click(function(e) {
+        if ($(this).hasClass('disabled')) {
+          e.stopImmediatePropagation();
+        }
       });
 
+      $('#add').click(function() {
+        console.log('add');
+      });
+      $('#edit').click(function() {
+        console.log(self.selected.data('data'));
+      });
+      $('#del').click(function() {
+        console.log('delete ' + self.selected.data('data').id);
+      });
+    },
+    onLoaded: function() {
+      $('#edit, #del').addClass('disabled');
     }
   }).render();
+
 
 });
