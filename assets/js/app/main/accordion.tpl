@@ -1,6 +1,6 @@
 {{#each headers}}
-  <div class="accordion-hd unselectable" data-role="trigger">
-    <i data-role="flag" class="icon icon-tool icon-tool-expand-bottom"></i>
+  <div class="accordion-hd" data-role="trigger">
+    <i data-role="flag" class="icon-tool-plus"></i>
     <i class="icon" style="background:url('{{this.icon}}')"></i>
     <span>{{this.name}}</span>
   </div>

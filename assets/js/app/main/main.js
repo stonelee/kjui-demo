@@ -17,8 +17,8 @@ define(function(require, exports, module) {
       classPrefix: '',
       activeTriggerClass: 'accordion-hd-is-active',
       onSwitched: function(toIndex, fromIndex) {
-        this.triggers.eq(fromIndex).find('[data-role=flag]').addClass('icon-tool-expand-bottom').removeClass('icon-tool-collapse-top');
-        this.triggers.eq(toIndex).find('[data-role=flag]').addClass('icon-tool-collapse-top').removeClass('icon-tool-expand-bottom');
+        this.triggers.eq(fromIndex).find('[data-role=flag]').addClass('icon-tool-plus').removeClass('icon-tool-minus');
+        this.triggers.eq(toIndex).find('[data-role=flag]').addClass('icon-tool-minus').removeClass('icon-tool-plus');
       }
     }).render();
 
@@ -33,28 +33,31 @@ define(function(require, exports, module) {
 
     var $panels = $('.accordion-bd', $menu);
     for (var i = 0; i < data.length; i++) {
-      new Tree({
-        element: $panels.eq(i),
+      var tree = new Tree({
+        parentNode: $panels.eq(i),
         data: data[i],
-        showRoot: false,
-        onRendered: afterRender,
+        model: {
+          width: '100%',
+          showRoot: false
+        },
+        onLoaded: onLoaded,
         onClick: click
       }).render();
     }
 
-    function afterRender(tree) {
-      tree.$('.bd').css('border-width', 0);
+    function onLoaded() {
+      this.$('.panel-bd').css('border-width', 0);
     }
 
     function click(target, data) {
       if (data.uri) {
         $('#container').attr('src', 'view/' + data.uri + '.html').load(function() {
-          layout.adjustContainerMainHeight();
+          //layout.adjustContainerMainHeight();
         });
       }
     }
 
-    layout.adjustMenuItemHeight();
+    //layout.adjustMenuItemHeight();
   }
 
   $('#sub [data-role=toggle],#splitter [data-role=toggle]').click(function() {
@@ -64,7 +67,7 @@ define(function(require, exports, module) {
         width: width
       }, {
         progress: function() {
-          layout.adjustContainerWidth();
+          //layout.adjustContainerWidth();
         },
         complete: function() {
           $('#sub [data-role=toggle]').attr('data-status', method).addClass(newIconClass).removeClass(oldIconClass).siblings()[method]();
@@ -75,9 +78,9 @@ define(function(require, exports, module) {
     }
 
     if ($(this).attr('data-status') == 'show') {
-      toggle('hide', 27, 'icon-tool-expand-right', 'icon-tool-collapse-left', 'splitter-mini-right', 'splitter-mini-left');
+      toggle('hide', 27, 'icon-tool-right', 'icon-tool-left', 'splitter-mini-right', 'splitter-mini-left');
     } else {
-      toggle('show', 200, 'icon-tool-collapse-left', 'icon-tool-expand-right', 'splitter-mini-left', 'splitter-mini-right');
+      toggle('show', 200, 'icon-tool-left', 'icon-tool-right', 'splitter-mini-left', 'splitter-mini-right');
     }
   });
 
