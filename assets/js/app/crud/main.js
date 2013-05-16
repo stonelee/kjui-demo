@@ -79,15 +79,17 @@ define(function(require, exports, module) {
 
       new Dialog({
         trigger: '#add',
-        template: require('./form.tpl'),
-        hasMask: false,
-        closeTpl: ' ',
-        content: $('#form').html()
+        content: $('#form').html(),
+        model: {
+          title: '新建',
+          confirmTpl: '保存'
+        },
+        onConfirm: function() {
+          console.log('submit:' + $('#text').val());
+          this.hide();
+        }
       });
 
-      //$('#add').click(function() {
-        //console.log('add');
-      //});
       $('#edit').click(function() {
         console.log(self.selected.data('data'));
       });

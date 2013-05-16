@@ -447,7 +447,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.unselectable, .hd, .panel-hd, .accordion-hd, .tab-hd, .dialog-hd, .grid-hd, .tree-item {
+.unselectable, .hd, .panel-hd, .accordion-hd, .tab-hd, .form-hd, .grid-hd, .tree-item {
   user-select: none;
   -o-user-select: none;
   -ms-user-select: none;
@@ -460,12 +460,12 @@ table {
   opacity: 0.3;
   cursor: default!important; }
 
-.oneline, .hd, .panel-hd, .accordion-hd, .tab-hd, .dialog-hd, .grid-hd, .grid-cell {
+.oneline, .hd, .panel-hd, .accordion-hd, .tab-hd, .form-hd, .grid-hd, .grid-cell {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
 
-.relative, .mod, .hd, .panel-hd, .accordion-hd, .tab-hd, .dialog-hd, .grid-hd, .bd, .panel-bd, .tab-bd, .accordion-bd, .dialog-bd, .form-bd, .grid-bd, .panel-mod, .dialog, .layer {
+.relative, .mod, .hd, .panel-hd, .accordion-hd, .tab-hd, .form-hd, .grid-hd, .bd, .panel-bd, .tab-bd, .accordion-bd, .form-bd, .grid-bd, .panel-mod, .dialog, .layer {
   position: relative;
   _zoom: 1; }
 
@@ -677,7 +677,7 @@ ul {
   margin-left: 980px; }
 
 /*basic*/
-.mod, .hd, .panel-hd, .accordion-hd, .tab-hd, .dialog-hd, .grid-hd, .bd, .panel-bd, .tab-bd, .accordion-bd, .dialog-bd, .form-bd, .grid-bd, .panel-mod, .dialog, .layer {
+.mod, .hd, .panel-hd, .accordion-hd, .tab-hd, .form-hd, .grid-hd, .bd, .panel-bd, .tab-bd, .accordion-bd, .form-bd, .grid-bd, .panel-mod, .dialog, .layer {
   overflow: hidden; }
 
 /*panel*/
@@ -1124,19 +1124,6 @@ ul {
   .dialog:focus {
     outline: none; }
 
-.dialog-hd {
-  cursor: move; }
-  .dialog-hd span {
-    font-weight: bold;
-    color: #04468c; }
-
-.dialog-bd {
-  padding: 10px; }
-
-.dialog-ft {
-  margin-top: 8px;
-  text-align: center; }
-
 /*layer*/
 .layer {
   border: 1px solid #98c0f4;
@@ -1185,8 +1172,12 @@ ul.menu {
   margin-left: 20px; }
 
 /*form*/
+.form-hd span {
+  font-weight: bold;
+  color: #04468c; }
+
 .form-bd {
-  padding: 5px; }
+  padding: 10px; }
 
 .form-label {
   display: inline-block;
