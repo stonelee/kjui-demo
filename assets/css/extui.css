@@ -1337,12 +1337,11 @@ fieldset legend {
 /*btn*/
 .btn {
   width: 60px;
-  margin: 2px;
   height: 22px;
-  _line-height: 20px;
+  margin: 2px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-  background-color: #99bce8;
+  background-color: whitesmoke;
   background-image: -webkit-linear-gradient(top, white, #f9f9f9 48%, #e2e2e2 52%, #e7e7e7);
   background-image: -moz-linear-gradient(top, white, #f9f9f9 48%, #e2e2e2 52%, #e7e7e7);
   background-image: -o-linear-gradient(top, white, #f9f9f9 48%, #e2e2e2 52%, #e7e7e7);
@@ -1369,7 +1368,7 @@ fieldset legend {
 
 .btn-is-pressed, .btn:active, .btn-is-pressed:hover {
   border-color: #9ebae1;
-  background-color: #98c5f5;
+  background-color: #49afcd;
   background-image: -webkit-linear-gradient(top, #b6cbe4, #bfd2e6 48%, #8dc0f5 52%, #98c5f5);
   background-image: -moz-linear-gradient(top, #b6cbe4, #bfd2e6 48%, #8dc0f5 52%, #98c5f5);
   background-image: -o-linear-gradient(top, #b6cbe4, #bfd2e6 48%, #8dc0f5 52%, #98c5f5);
@@ -1940,12 +1939,18 @@ fieldset legend {
 
 .calendar {
   border: 1px solid #1b376c;
-  background-color: white; }
+  background-color: white;
+  width: 171px; }
+  .calendar ul {
+    *zoom: 1; }
+    .calendar ul:before, .calendar ul:after {
+      content: " ";
+      display: table; }
+    .calendar ul:after {
+      clear: both; }
   .calendar li {
-    display: inline-block;
-    *display: inline;
-    *zoom: 1;
-    width: 22px;
+    float: left;
+    width: 24px;
     padding: 2px 0;
     text-align: center;
     cursor: pointer; }
@@ -1970,21 +1975,35 @@ fieldset legend {
   background-image: -ms-linear-gradient(top, #edf4fd, #cde1f9);
   background-image: linear-gradient(top, #edf4fd, #cde1f9); }
 
-.calendar-date-column .previous-month,
-.calendar-date-column .next-month {
-  color: #aaa; }
-
 .calendar-data-container li {
-  color: black; }
+  color: black;
+  width: 22px;
+  border: 1px solid;
+  border-color: transparent;
+  _border-color: white; }
   .calendar-data-container li:hover {
     color: black;
     background-color: #ddecfe; }
+  .calendar-data-container li.previous-month, .calendar-data-container li.next-month {
+    color: #aaa; }
+  .calendar-data-container li.disabled-date {
+    color: #bbb;
+    background-color: #eee;
+    cursor: default; }
   .calendar-data-container li.focused-element {
-    border: 1px solid darkred;
+    border-color: darkRed;
     background-color: #ddecfe; }
-
-.calendar-year-column li, .calendar-month-column li {
+.calendar-data-container .calendar-year-column li, .calendar-data-container .calendar-month-column li {
   width: 55px; }
+
+.calendar-time {
+  padding: 5px 0;
+  border-top: 1px solid #b2d1f5; }
+  .calendar-time input {
+    width: 15px;
+    margin: 0 2px; }
+  .calendar-time a {
+    padding: 3px 6px; }
 
 .calendar-footer {
   border-top: 1px solid #b2d1f5;
@@ -1995,3 +2014,30 @@ fieldset legend {
   background-image: -o-linear-gradient(top, #dee8f5, #d1dff0 49%, #c7d8ed 51%, #cbdaee);
   background-image: -ms-linear-gradient(top, #dee8f5, #d1dff0 49%, #c7d8ed 51%, #cbdaee);
   background-image: linear-gradient(top, #dee8f5, #d1dff0 49%, #c7d8ed 51%, #cbdaee); }
+
+.calendar-overlay {
+  display: none;
+  padding: 0 5px; }
+  .calendar-overlay ul {
+    border: 1px solid #8eaace;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #e9f2ff;
+    box-shadow: #888888 0px 0px 4px 0px; }
+  .calendar-overlay li:hover {
+    background: #cbdaf0; }
+  .calendar-overlay .calendar-overlay-triangle, .calendar-overlay .calendar-overlay-triangle-shadow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border-width: 6px;
+    border-color: #e9f2ff transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+    bottom: -11px; }
+  .calendar-overlay .calendar-overlay-triangle-shadow {
+    border-top-color: #8eaace;
+    bottom: -12px; }
+
+.calendar-overlay-is-active, .calendar-overlay li:active {
+  background: #99bce8; }

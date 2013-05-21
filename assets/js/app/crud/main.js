@@ -1,7 +1,9 @@
 define(function(require, exports, module) {
   var $ = require('$'),
+    Widget=require('widget'),
     Dialog = require('dialog'),
     Grid = require('grid');
+
 
   var fields = [{
     header: '编号',
@@ -87,6 +89,9 @@ define(function(require, exports, module) {
         onConfirm: function() {
           console.log('submit:' + $('#text').val());
           this.hide();
+        },
+        afterShow: function() {
+          Widget.autoRenderAll();
         }
       });
 
