@@ -6,5 +6,10 @@ KJUI演示系统
 
 ---
 
-##todo
+## 安装
 
+将images放到assets中
+
+```bash
+spm install
+```
