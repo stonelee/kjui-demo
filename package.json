@@ -22,7 +22,7 @@
       "switchable": "arale/switchable/0.9.12/switchable",
       "grid": "kjui/grid/1.3.0/grid",
       "tree": "kjui/tree/1.1.0/tree",
-      "dialog": "kjui/dialog/1.0.0/dialog",
+      "dialog": "kjui/dialog/1.1.0/dialog",
       "calendar": "kjui/calendar/1.0.0/calendar",
       "datetime": "kjui/calendar/1.0.0/datetime"
     }

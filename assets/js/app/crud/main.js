@@ -79,20 +79,10 @@ define(function(require, exports, module) {
         }
       });
 
-      new Dialog({
-        trigger: '#add',
-        content: $('#form').html(),
-        model: {
-          title: '新建',
-          confirmTpl: '保存'
-        },
-        onConfirm: function() {
-          console.log('submit:' + $('#text').val());
-          this.hide();
-        },
-        afterShow: function() {
-          Widget.autoRenderAll();
-        }
+      $('#add').click(function() {
+        Dialog.form('#form','新建',function() {
+          console.log('submit:' + $('#stationName').val());
+        });
       });
 
       $('#edit').click(function() {
